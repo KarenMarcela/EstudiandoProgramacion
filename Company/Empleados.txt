@@ -1,0 +1,5 @@
+Manager{ Nombre: Vanessa Edad: 32 Salario: $1.0003E8}
+Manager{ Nombre: Karen Edad: 28 Salario: $2.0003E8}
+RegularEmployee{Nombre : Juan, Edad : 40, Salary: $2.6E7}
+RegularEmployee{Nombre : Danilo, Edad : 30, Salary: $5.0E7}
+RegularEmployee{Nombre : Karol, Edad : 38, Salary: $7.0E7}

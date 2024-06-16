@@ -8,26 +8,20 @@
 // por parametro.
 
 package www.educacion.com.excersiceswithlist;
-
 import java.util.ArrayList;
-
 public class ExcersicesWithList {
-
     public static void main(String[] args) {
-       
         Factory factory = new Factory();
         loadFactory(factory);
-        
+
         factory.listInstruments();
-        
+
         //lista de instrumentos 
         ArrayList<Instrument> list = factory.instrumentByType(InstrumentTypes.ROPE);
         for(Instrument instrument : list ){
             System.out.println(instrument);
         }
-        
     }
-    
     //Este metodo se hace con la finalidad de que el main no quede tan cargado
     private static void loadFactory(Factory factory){
         //Sucursales
@@ -38,10 +32,6 @@ public class ExcersicesWithList {
         Instrument instrument1 = new Instrument("JH755", 4000000, InstrumentTypes.PERCUSSION);
         Instrument instrument2 = new Instrument("JHFS67", 6000000, InstrumentTypes.WIND);
         Instrument instrument3 = new Instrument("JHgd4", 475500000, InstrumentTypes.ROPE);
-        
-        
-        
-        //Agrego los intrumentos a las sucursales
         
         //Sucursal 1
         branch1.addInstruments(instrument1);
