@@ -1,0 +1,4 @@
+BasicConsumerProduct'{' Name: Huevo Precio: $600.0 Cantidad:  20}
+BasicConsumerProduct'{' Name: Arroz Precio: $3000.0 Cantidad:  7}
+ImpulseProduct{ Name: Blusas Precio: $51000.0 Cantidad:  5}
+ImpulseProduct{ Name: Celular Precio: $1010000.0 Cantidad:  3}
