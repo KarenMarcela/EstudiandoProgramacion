@@ -16,7 +16,8 @@ public class Store implements StoreAction {
         this.name = name;
         this.listProducts = new ArrayList<>();
     }
-
+    
+    
     //Metodo para añadir producto
     @Override
     public void addProduct(Product product) {

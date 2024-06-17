@@ -62,6 +62,10 @@ public class ManageStore {
         
         //Otra vez listo los productos para ver el cambio
         store.listProduct();
+        
+        
 
     }
+    
+    
 }
